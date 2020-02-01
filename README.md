@@ -1,2 +1,10 @@
 # TipCalculator
-Innitial commit
+
+### Author
+C. Solana
+
+### Description
+Tip Calculator
+
+### Dependencies
+- None

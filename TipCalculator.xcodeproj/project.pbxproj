@@ -16,6 +16,7 @@
 		CCA80A0B23E5C52900A70724 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA80A0A23E5C52900A70724 /* TipCalculatorTests.swift */; };
 		CCA80A1623E5C52900A70724 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA80A1523E5C52900A70724 /* TipCalculatorUITests.swift */; };
 		CCB0367D23E5DB830034BC34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CCB0367C23E5DB830034BC34 /* README.md */; };
+		CCB0367F23E5E5540034BC34 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CCB0367E23E5E5540034BC34 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CCA80A1523E5C52900A70724 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		CCA80A1723E5C52900A70724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCB0367C23E5DB830034BC34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CCB0367E23E5E5540034BC34 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		CCA809E723E5C52800A70724 = {
 			isa = PBXGroup;
 			children = (
+				CCB0367E23E5E5540034BC34 /* .gitignore */,
 				CCB0367C23E5DB830034BC34 /* README.md */,
 				CCA809F223E5C52800A70724 /* TipCalculator */,
 				CCA80A0923E5C52900A70724 /* TipCalculatorTests */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB0367F23E5E5540034BC34 /* .gitignore in Resources */,
 				CCA80A0023E5C52900A70724 /* LaunchScreen.storyboard in Resources */,
 				CCA809FD23E5C52900A70724 /* Assets.xcassets in Resources */,
 				CCB0367D23E5DB830034BC34 /* README.md in Resources */,
