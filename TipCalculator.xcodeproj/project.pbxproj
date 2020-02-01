@@ -15,6 +15,7 @@
 		CCA80A0023E5C52900A70724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA809FE23E5C52900A70724 /* LaunchScreen.storyboard */; };
 		CCA80A0B23E5C52900A70724 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA80A0A23E5C52900A70724 /* TipCalculatorTests.swift */; };
 		CCA80A1623E5C52900A70724 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA80A1523E5C52900A70724 /* TipCalculatorUITests.swift */; };
+		CCB0367D23E5DB830034BC34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CCB0367C23E5DB830034BC34 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CCA80A1123E5C52900A70724 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA80A1523E5C52900A70724 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		CCA80A1723E5C52900A70724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB0367C23E5DB830034BC34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		CCA809E723E5C52800A70724 = {
 			isa = PBXGroup;
 			children = (
+				CCB0367C23E5DB830034BC34 /* README.md */,
 				CCA809F223E5C52800A70724 /* TipCalculator */,
 				CCA80A0923E5C52900A70724 /* TipCalculatorTests */,
 				CCA80A1423E5C52900A70724 /* TipCalculatorUITests */,
@@ -234,6 +237,7 @@
 			files = (
 				CCA80A0023E5C52900A70724 /* LaunchScreen.storyboard in Resources */,
 				CCA809FD23E5C52900A70724 /* Assets.xcassets in Resources */,
+				CCB0367D23E5DB830034BC34 /* README.md in Resources */,
 				CCA809FB23E5C52800A70724 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
