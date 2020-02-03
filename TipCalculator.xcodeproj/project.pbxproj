@@ -80,6 +80,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC94AA2323E7A507003A5073 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC94AA2423E7A51F003A5073 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCA809FC23E5C52900A70724 /* Assets.xcassets */,
+				CCA80A0123E5C52900A70724 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC94AA2523E7A5EE003A5073 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CCA809F323E5C52800A70724 /* AppDelegate.swift */,
+				CCA809F523E5C52800A70724 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		CC94AA2623E7A650003A5073 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCA809F723E5C52800A70724 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC94AA2723E7A68A003A5073 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCA809F923E5C52800A70724 /* Main.storyboard */,
+				CCA809FE23E5C52900A70724 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CCA809E723E5C52800A70724 = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +147,11 @@
 		CCA809F223E5C52800A70724 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				CCA809F323E5C52800A70724 /* AppDelegate.swift */,
-				CCA809F523E5C52800A70724 /* SceneDelegate.swift */,
-				CCA809F723E5C52800A70724 /* ViewController.swift */,
-				CCA809F923E5C52800A70724 /* Main.storyboard */,
-				CCA809FC23E5C52900A70724 /* Assets.xcassets */,
-				CCA809FE23E5C52900A70724 /* LaunchScreen.storyboard */,
-				CCA80A0123E5C52900A70724 /* Info.plist */,
+				CC94AA2523E7A5EE003A5073 /* Delegate */,
+				CC94AA2323E7A507003A5073 /* Model */,
+				CC94AA2723E7A68A003A5073 /* View */,
+				CC94AA2623E7A650003A5073 /* Controller */,
+				CC94AA2423E7A51F003A5073 /* Resources */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -444,7 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZNL82LS978;
-				INFOPLIST_FILE = TipCalculator/Info.plist;
+				INFOPLIST_FILE = TipCalculator/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +502,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZNL82LS978;
-				INFOPLIST_FILE = TipCalculator/Info.plist;
+				INFOPLIST_FILE = TipCalculator/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
